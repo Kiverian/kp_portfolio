@@ -11,7 +11,7 @@ const Navbar = () => {
             <a className="navbar-brand" href="#"></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 
-                {/* imported the font awesome burger icon for the responisve design and added white colo */}
+                {/* imported the font awesome burger icon for the responisve design and added white color */}
 
                 <FontAwesomeIcon icon={faBars} style={{color: "white"}}/>
             </button>
