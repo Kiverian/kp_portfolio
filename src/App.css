@@ -155,3 +155,184 @@ nav ul li {
     width: 10rem;
   }
 }
+
+
+/* PROJECTS */
+
+.portfolio-wrapper h1{
+  color: orange;
+}
+
+.portfolio-wrapper{
+  background: lightgray;
+  padding: 3rem 0;
+}
+
+.portfolio-image{
+  width: 15rem;
+  border: 1px solid orange;
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box{
+  position: relative;
+  margin: 1rem;
+}
+
+
+/* OVERFLOW BOX */
+
+.overflow{
+  position: absolute;
+  opacity: 0;
+  background: black;
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow{
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: orange;
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon{
+  opacity: 70%;
+  transition: 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+
+
+/* OVERFLOW BOX */
+
+.portfolio-image-popupbox{
+  width: 45rem;
+  padding: 0 0.5rem;
+
+}
+
+.hyper-link{
+  cursor: pointer;
+  color: red;
+
+}
+
+.hyper-link:hover{
+  color: red;
+}
+
+
+/* MEDIA */
+
+@media(max-width: 768px){
+  .portfolio-image-popupbox{
+  width: 100%;
+  }
+}
+
+/* @media(max-width: 570px){
+  height: 100%;
+} */
+
+  .portfolio-wrapper{
+    height: 100%; 
+}
+
+
+/* CONTACT */
+
+
+.contacts{
+  background:gray;
+  padding: 3rem 0;
+}
+
+.contacts h1{
+  color: orange;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p{
+  color: lightgray;
+  font-size: 1.2rem;
+}
+
+
+/* CONTACT INPUT  */
+
+.contacts input, .contacts textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid darkgray;
+  border-radius: 0;
+  color: black;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+
+}
+
+.contacts .container{
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus{
+  background: transparent;
+  color: orange;
+  border-bottom: 0.125rem solid darkgray;
+}
+
+.contacts textarea{
+  height: 12.4rem;
+}
+
+.contact-btn{
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+
+/* FOOTER */
+
+.footer{
+  background:  black;
+  color: darkgray;
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: darkgray;
+  padding-left: 25rem;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
+  text-transform: uppercase;
+  padding-left: 25rem;
+}
+
