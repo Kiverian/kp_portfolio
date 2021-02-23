@@ -2,7 +2,7 @@ import React from "react";
 //importing font awesome from font awesome react
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
-import {Link} from "react-scroll";
+import {a} from "react-scroll";
 const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -19,17 +19,17 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <Link smooth={true} to="Home" to className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                        <a smooth={true} to="Home" to className="nav-a" href="#">Home <span className="sr-only">(current)</span></a>
                     </li>
 
                     <li className="nav-item">
-                        <Link smooth={true} to="About" className="nav-link" href="#">About Me</Link>
+                        <a smooth={true} to="About" className="nav-a" href="#">About Me</a>
                     </li>
                     <li className="nav-item">
-                        <Link smooth={true} to="Projects" className="nav-link" href="#">Projects</Link>
+                        <a smooth={true} to="Projects" className="nav-a" href="#">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <Link smooth={true} to="Contact" className="nav-link" href="#">Contact Me</Link>
+                        <a smooth={true} to="Contact" className="nav-a" href="#">Contact Me</a>
                     </li>
                 
                 </ul>

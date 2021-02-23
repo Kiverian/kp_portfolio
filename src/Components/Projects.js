@@ -8,6 +8,7 @@ import tictactoe from "../tic-tac-toe-pic.png";
 import todo from "../todo-pic.png";
 import animated from "../animatedNavBar-pic.png";
 import quarantips from "../quarantips-pic.png";
+import burger from "../burger-app-pic.png";
 //FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faSearchPlus} from "@fortawesome/free-solid-svg-icons";
@@ -239,6 +240,30 @@ const popupboxConfigQuarantips = {
 
 }
 
+//Burger
+const openPopupboxBurger = () =>{
+    const content = (
+    <>
+    <img className= "portfolio-image-popupbox"src={burger} alt="Burger project" />
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/burger-app")}>https://github.com/Kiverian/burger-app</a>
+
+    </>
+    )
+    PopupboxManager.open({content})
+}
+
+
+const popupboxConfigBurger = {
+    titleBar:{
+        enable:true,
+        text: "Burger Project"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500
+
+}
+
 
 
 
@@ -314,6 +339,13 @@ const popupboxConfigQuarantips = {
 
                     </div>
 
+                    <div className="portfolio-image-box" onClick={openPopupboxBurger}>
+                    <img className="portfolio-image" src={burger} alt="burger project" />
+                    <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon = {faSearchPlus} />
+
+                    </div>
+
                     
                 </div>
 
@@ -326,6 +358,8 @@ const popupboxConfigQuarantips = {
             <PopupboxContainer {...popupboxConfigTictactoe } />
             <PopupboxContainer {...popupboxConfigTodo } />
             <PopupboxContainer {...popupboxConfigAnimated } />
+            <PopupboxContainer {...popupboxConfigQuarantips } />
+            <PopupboxContainer {...popupboxConfigBurger } />
            
             
         </div>
