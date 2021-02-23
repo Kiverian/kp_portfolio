@@ -25,7 +25,7 @@ const openPopupboxEcom = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={ecom} alt="ecom project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>My first e-commerce website using semantic HTML and CSS. After a couple of iterations eventually, there has been a JSON file added along with transferring it to React.js.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/ecommerce-2")}>https://github.com/Kiverian/ecommerce-2</a>
 
     </>
@@ -49,7 +49,7 @@ const openPopupboxFriendsApp = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={friends} alt="friends project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>A social media app made from React.js that gives you the ability to add friends, (similar to fb).</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/friendsApp")}>https://github.com/Kiverian/friendsApp</a>
 
     </>
@@ -74,7 +74,7 @@ const popupboxConfigFriendsApp = {
         const content = (
         <>
         <img className= "portfolio-image-popupbox"src={gateway} alt="gateway project" />
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        <p>My FIRST ever experience creating a project. I got the chance to dive into HTML and CSS. </p>
         <b>Codepen:</b> <a className="hyper-link" onClick={() => window.open("https://codepen.io/Kiverian/project/editor/AeEnaM")}>https://codepen.io/Kiverian/project/editor/AeEnaM</a>
     
         </>
@@ -98,7 +98,7 @@ const openPopupboxReservation = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={reservation} alt="ecom project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>Making reservations just got easier and looks great while you make them!</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/Reservation-app")}>https://github.com/Kiverian/Reservation-app</a>
 
     </>
@@ -122,7 +122,7 @@ const popupboxConfigReservation = {
         const content = (
         <>
         <img className= "portfolio-image-popupbox"src={speech} alt="Speech recogniton project" />
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        <p>Guess a number! With this project I got JavaScript to listen to someone guessing a number on the computer with audio.</p>
         <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/speechRecognition-app")}>https://github.com/Kiverian/speechRecognition-app</a>
     
         </>
@@ -147,7 +147,7 @@ const openPopupboxTictactoe = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={tictactoe} alt="Tictactoe project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>Everyone knows the game of tic-tac-toe, you can play the game here in this React app.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/tic-tac-toe-app")}>https://github.com/Kiverian/tic-tac-toe-app</a>
 
     </>
@@ -171,7 +171,7 @@ const openPopupboxTodo = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={todo} alt="Todo project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>Being organized is so essential to success in my opinon. Create your own to-do list to keep up with your daily tasks.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/todoAPI")}>https://github.com/Kiverian/todoAPjuI</a>
 
     </>
@@ -196,7 +196,7 @@ const openPopupboxAnimated = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={animated} alt="Animated Nav Bar project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>Look at the feautures of this animated nav bar.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/animatedNavBar")}>https://github.com/Kiverian/animatedNavBar</a>
 
     </>
@@ -221,7 +221,7 @@ const openPopupboxQuarantips = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={quarantips} alt="Quarantips project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>A group project for implementing third party API's. One of my personal favorite projects because of the image map.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/quarantips")}>https://github.com/Kiverian/quarantips</a>
 
     </>
@@ -245,7 +245,7 @@ const openPopupboxBurger = () =>{
     const content = (
     <>
     <img className= "portfolio-image-popupbox"src={burger} alt="Burger project" />
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <p>Ordering your burger has never been so simple.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/burger-app")}>https://github.com/Kiverian/burger-app</a>
 
     </>
