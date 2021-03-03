@@ -7,6 +7,7 @@ import {
     FacebookIcon, 
     FacebookShareButton
 } from "react-share";
+import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -16,9 +17,7 @@ const Footer = () => {
                     <div className= "d-flex">
                         <p>Kiverian Pinkard</p>
                     </div>
-                    <div className= "d-flex">
-                        <a href="tel: 555-555-5555"> +1(800)555-5555</a>
-                    </div>
+                    
                     <div className= "d-flex">
                         <p>kiverianpinkard@gmail.com</p>
                     </div>
@@ -48,11 +47,23 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                     <div className="d-flex justify-content-center">
-                        <FacebookShareButton 
+                        {/* <FacebookShareButton 
                         url="https://www.facebook.com/" 
                         >
                             <FacebookIcon className ="mx-3" size={36}/>
-                        </FacebookShareButton>
+                        </FacebookShareButton> */}
+
+                        
+                        <a href = "https://github.com/">
+                        <FaGithub className="mx-3" size={36} >
+                        </FaGithub>
+                        </a>
+
+                        <LinkedinShareButton
+                        url="https://www.linkedin.com/">
+                            
+                            <LinkedinIcon className="mx-3" size={36} />
+                        </LinkedinShareButton>
 
                         <TwitterShareButton
                         url="https://twitter.com/">
@@ -60,11 +71,7 @@ const Footer = () => {
                             <TwitterIcon className="mx-3" size={36} />
                         </TwitterShareButton>
 
-                        <LinkedinShareButton
-                        url="https://www.linkedin.com/">
-                            
-                            <LinkedinIcon className="mx-3" size={36} />
-                        </LinkedinShareButton>
+
                     </div>
 
                     <p className="pt-3 text-center">

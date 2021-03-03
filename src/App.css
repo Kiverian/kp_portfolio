@@ -13,12 +13,12 @@ body{
 /* Nav Bar  */
 
 nav {
-  /* z-index: 2; */
+  z-index: 100;
+  cursor: pointer;
 }
 
 nav.nav-link{
   letter-spacing: 0.0375rem;
-  cursor: pointer;
 }
 
 nav ul li {

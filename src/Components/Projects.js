@@ -22,8 +22,9 @@ const Projects = () => {
 
 //ECOM
 const openPopupboxEcom = () =>{
-    const content = (
+    let content = (
     <>
+    <p>Ecom</p>
     <img className= "portfolio-image-popupbox"src={ecom} alt="ecom project" />
     <p>My first e-commerce website using semantic HTML and CSS. After a couple of iterations eventually, there has been a JSON file added along with transferring it to React.js.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/ecommerce-2")}>https://github.com/Kiverian/ecommerce-2</a>
@@ -37,7 +38,7 @@ const openPopupboxEcom = () =>{
 const popupboxConfigEcom = {
     titleBar:{
         enable:true,
-        text: "Semantic HTML Project"
+        // text: "Semantic HTML Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -46,8 +47,9 @@ const popupboxConfigEcom = {
 
 //FRIENDS
 const openPopupboxFriendsApp = () =>{
-    const content = (
+    let content = (
     <>
+    <p>Friends App</p>
     <img className= "portfolio-image-popupbox"src={friends} alt="friends project" />
     <p>A social media app made from React.js that gives you the ability to add friends, (similar to fb).</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/friendsApp")}>https://github.com/Kiverian/friendsApp</a>
@@ -61,7 +63,7 @@ const openPopupboxFriendsApp = () =>{
 const popupboxConfigFriendsApp = {
     titleBar:{
         enable:true,
-        text: "Friends App"
+        // text: "Friends App"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -71,8 +73,9 @@ const popupboxConfigFriendsApp = {
 
     //GATEWAY
     const openPopupboxGateway = () =>{
-        const content = (
+        let content = (
         <>
+        <p>Gateway project</p>
         <img className= "portfolio-image-popupbox"src={gateway} alt="gateway project" />
         <p>My FIRST ever experience creating a project. I got the chance to dive into HTML and CSS. </p>
         <b>Codepen:</b> <a className="hyper-link" onClick={() => window.open("https://codepen.io/Kiverian/project/editor/AeEnaM")}>https://codepen.io/Kiverian/project/editor/AeEnaM</a>
@@ -86,7 +89,7 @@ const popupboxConfigFriendsApp = {
     const popupboxConfigGateway = {
         titleBar:{
             enable:true,
-            text: "Gateway Project"
+            // text: "Gateway Project"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -95,8 +98,10 @@ const popupboxConfigFriendsApp = {
 
     //Reservation
 const openPopupboxReservation = () =>{
-    const content = (
+    let content = (
     <>
+    <p>Reservation app</p>
+    
     <img className= "portfolio-image-popupbox"src={reservation} alt="ecom project" />
     <p>Making reservations just got easier and looks great while you make them!</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/Reservation-app")}>https://github.com/Kiverian/Reservation-app</a>
@@ -110,7 +115,7 @@ const openPopupboxReservation = () =>{
 const popupboxConfigReservation = {
     titleBar:{
         enable:true,
-        text: "Reservation Project"
+        // text: "Reservation Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -119,8 +124,9 @@ const popupboxConfigReservation = {
 
     //Speech
     const openPopupboxSpeech = () =>{
-        const content = (
+        let content = (
         <>
+        <p>Speech recognition app</p>
         <img className= "portfolio-image-popupbox"src={speech} alt="Speech recogniton project" />
         <p>Guess a number! With this project I got JavaScript to listen to someone guessing a number on the computer with audio.</p>
         <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/speechRecognition-app")}>https://github.com/Kiverian/speechRecognition-app</a>
@@ -134,7 +140,7 @@ const popupboxConfigReservation = {
     const popupboxConfigSpeech = {
         titleBar:{
             enable:true,
-            text: "Speech Recogniton Project"
+            // text: "Speech Recogniton Project"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -144,8 +150,9 @@ const popupboxConfigReservation = {
 
     //TICTACTOE
 const openPopupboxTictactoe = () =>{
-    const content = (
+    let content = (
     <>
+    <p>Tic-tac-toe-app</p>
     <img className= "portfolio-image-popupbox"src={tictactoe} alt="Tictactoe project" />
     <p>Everyone knows the game of tic-tac-toe, you can play the game here in this React app.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/tic-tac-toe-app")}>https://github.com/Kiverian/tic-tac-toe-app</a>
@@ -159,7 +166,7 @@ const openPopupboxTictactoe = () =>{
 const popupboxConfigTictactoe = {
     titleBar:{
         enable:true,
-        text: "Tictactoe Project"
+        // text: "Tictactoe Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -168,8 +175,9 @@ const popupboxConfigTictactoe = {
     
 //TODO
 const openPopupboxTodo = () =>{
-    const content = (
+    let content = (
     <>
+    <p>To-do-app</p>
     <img className= "portfolio-image-popupbox"src={todo} alt="Todo project" />
     <p>Being organized is so essential to success in my opinon. Create your own to-do list to keep up with your daily tasks.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/todoAPI")}>https://github.com/Kiverian/todoAPjuI</a>
@@ -183,7 +191,7 @@ const openPopupboxTodo = () =>{
 const popupboxConfigTodo = {
     titleBar:{
         enable:true,
-        text: "To-do Project"
+        // text: "To-do Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -193,8 +201,9 @@ const popupboxConfigTodo = {
 
 //ANIMATED
 const openPopupboxAnimated = () =>{
-    const content = (
+    let content = (
     <>
+    <p>Animated Nav Bar</p>
     <img className= "portfolio-image-popupbox"src={animated} alt="Animated Nav Bar project" />
     <p>Look at the feautures of this animated nav bar.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/animatedNavBar")}>https://github.com/Kiverian/animatedNavBar</a>
@@ -208,7 +217,7 @@ const openPopupboxAnimated = () =>{
 const popupboxConfigAnimated = {
     titleBar:{
         enable:true,
-        text: "Animated Nav Project"
+        // text: "Animated Nav Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -218,8 +227,9 @@ const popupboxConfigAnimated = {
 
 //QUARANTIPS
 const openPopupboxQuarantips = () =>{
-    const content = (
+   let content = (
     <>
+    <p>Quarantips</p>
     <img className= "portfolio-image-popupbox"src={quarantips} alt="Quarantips project" />
     <p>A group project for implementing third party API's. One of my personal favorite projects because of the image map.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/quarantips")}>https://github.com/Kiverian/quarantips</a>
@@ -233,7 +243,7 @@ const openPopupboxQuarantips = () =>{
 const popupboxConfigQuarantips = {
     titleBar:{
         enable:true,
-        text: "Quarantips Project"
+        // text: "Quarantips Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -242,8 +252,9 @@ const popupboxConfigQuarantips = {
 
 //Burger
 const openPopupboxBurger = () =>{
-    const content = (
+    let content = (
     <>
+    <p>Burger App</p>
     <img className= "portfolio-image-popupbox"src={burger} alt="Burger project" />
     <p>Ordering your burger has never been so simple.</p>
     <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Kiverian/burger-app")}>https://github.com/Kiverian/burger-app</a>
@@ -257,7 +268,7 @@ const openPopupboxBurger = () =>{
 const popupboxConfigBurger = {
     titleBar:{
         enable:true,
-        text: "Burger Project"
+        // text: "Burger Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
